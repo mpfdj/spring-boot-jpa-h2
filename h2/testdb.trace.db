@@ -1,0 +1,24 @@
+2022-03-26 19:54:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM TABLE[*] WHERE ID=2"; expected "identifier"; SQL statement:
+delete from table where id=2 [42001-200]
+2022-03-26 19:54:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM TABLE[*] TUTORIALS WHERE ID=2"; expected "identifier"; SQL statement:
+delete from table tutorials where id=2 [42001-200]
+2022-03-26 19:55:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM TABLE[*] TUTORIALS WHERE ID=2"; expected "identifier"; SQL statement:
+delete from table TUTORIALS where id=2 [42001-200]
+2022-03-26 19:55:15 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM TABLE[*] TUTORIALS WHERE ID=2"; expected "identifier"; SQL statement:
+delete from table TUTORIALS where id=2 [42001-200]
+2022-03-26 19:55:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM TABLE[*] TUTORIALS WHERE ID=2"; expected "identifier"; SQL statement:
+delete from table TUTORIALS where id=2 [42001-200]
+2022-03-26 19:55:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM TABLE[*] TUTORIALS WHERE ID='2'"; expected "identifier"; SQL statement:
+delete from table TUTORIALS where id='2' [42001-200]
+2022-03-26 21:58:14 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TUTORIALS[*]"; expected "TABLE"; SQL statement:
+truncate tutorials [42001-200]
+2022-04-15 12:55:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "TRUNCATE TUTORIALS[*]"; expected "TABLE"; SQL statement:
+truncate TUTORIALS [42001-200]
